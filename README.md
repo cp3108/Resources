@@ -2,6 +2,10 @@
 - Javascript?
 
 # Projects depended upon
+- [Acorn](https://github.com/acornjs/acorn)
+
+A major time-saver, also used by js-slang below. It takes in code and turns it into an Abstract Syntax Tree, saving the tedious and non-trivial parsing of the language.
+
 - [js-slang](https://github.com/source-academy/js-slang)
 
 The current interpreter for _Source_. Many thanks to the developers who have made it what it is today. It has taught me a lot on language implementation, and how for even a comparatively small language it is not at all easy to perfect.

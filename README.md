@@ -23,3 +23,7 @@ I'm not sure what the plans for the debugger are currently, but if it's going to
 - Source Interpreter, WebAssembly and Sound improvements?
 
 If going native doesn't work out, at least we have the interpreter to fall back on. Work on the interpreter is much appreciated. (Not sure if it's possible or even worth it to have only some parts of the interpreter `eval`ed? Then perhaps we could work together.) Similarly, the sound and curve missions are the main offenders in evaluation time, and if anything can be done to speed those up it would be great.
+
+- Sound Missions.
+
+With a faster implementation of Source, Sound missions can be significantly sped up.
